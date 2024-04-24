@@ -9,8 +9,8 @@ public class Main {
         if (amount < 1000) {
             bonus = 0;
         }
-        int x = amount + summa + bonus;
-        System.out.println( "Ваш баланс телефона:" + x);
+        int balance = amount + summa + bonus;
+        System.out.println("Ваш баланс телефона:" + balance);
 
     }
 }
